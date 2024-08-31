@@ -10,9 +10,8 @@ public class Main {
         int age = 17;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
-        }
 
-        if (age < 18) {
+        } else {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать.");
         }
 
@@ -72,9 +71,9 @@ public class Main {
         int passenger = 30;
         if (passenger <= 60) {
             System.out.println("В вагоне есть сидячее место.");
-        } else if (ageOfChild >60 && ageOfChild <= 102) {
+        } else if (passenger >60 && passenger <= 102) {
             System.out.println("В вагоне есть стоячее место");
-        } else if (ageOfChild >102) {
+        } else if (passenger >102) {
             System.out.println("В вагоне нет мест");
         }
         System.out.println("Задача7");
